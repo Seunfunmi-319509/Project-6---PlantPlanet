@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Futura-Light';
+    src: url(/assets/fonts/futura\ light\ bt.ttf);
+}
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url(/assets/fonts/Futura\ Bold\ font.ttf);
+}
+@font-face {
+    font-family: 'Futura-Book';
+    src: url(/assets/fonts/Futura\ Book\ font.ttf);
+}
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url(/assets/fonts/futura\ medium\ bt.ttf);
+}
+@font-face {
+    font-family: 'Futura-Heavy font';
+    src: url(/assets/fonts/Futura\ Heavy\ font.ttf);
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main .wrapper{
+    width: 100%;
+    max-width: 1512px;
+    padding: 49px 121px;
+}
+
+.main .wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .wrapper nav .bars{
+    display: none;
+}
+.main .wrapper nav .right{
+    display: flex;
+    align-items: center;
+}
+.main .wrapper nav .right ul{
+    display: flex;
+    align-items: center;
+}
+.main .wrapper nav .right ul li{
+    list-style: none;
+    margin-right: 92px;
+    font-family:  'Futura-Medium';
+    font-size: 24px;
+    color: #767676;
+}
+.main .wrapper nav .right ul li a{
+    text-decoration: none;
+    font-family:  'Futura-Medium';
+    font-size: 24px;
+    color: #767676;
+}
+.main .wrapper nav .right ul li a:hover{
+    color: black;
+}
+.main .wrapper nav .right ul li.active{
+    color: black;
+}
+
+.main .wrapper .hero{
+    margin-top: 100px;
+}
+
+.main .wrapper h1{
+    font-size: 48px;
+    font-family: 'Futura-Heavy font';
+    margin-bottom: 21px;
+}
+.main .wrapper h1 span{
+    font-family: 'Futura-Light';
+}
+
+.main .wrapper .hero .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .wrapper .hero .wrap p{
+    font-family: 'Futura-Medium';
+    font-size: 24px;
+    padding-bottom: 44px;
+}
+.main .wrapper .hero .wrap .left{
+    width: 100%;
+    max-width: 580px;
+}
+.main .wrapper .hero .wrap .right{
+    width: 100%;
+    max-width: 629px;
+}
+.main .wrapper .hero .wrap .left img{
+    width: 100%;
+}
+.main .wrapper .center .wrap{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+}
+.main .wrapper .center .wrap .left{
+    width: 100%;
+    max-width: 580px;
+    margin: 142px 0px;
+}
+.main .wrapper .center .wrap .left p{
+    font-size: 48px;
+    font-family: 'Futura-Medium';
+    font-weight: 500px;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+.main .wrapper .center .wrap .left p span{
+    font-weight: 800;
+}
+.main .wrapper .center .wrap .left h3{
+    font-family: 'Futura-Light';
+    font-size: 32px;
+    line-height: 43px;
+    color: #767676;
+    margin-bottom: 42px;
+}
+.main .wrapper .center .wrap .left button{
+    background-color: #1B4332;
+    color: white;
+    padding: 15px;
+    width: 239px;
+    border-radius: 50px;
+    font-family: 'Futura-Light';
+    font-size: 25px;
+    font-weight: 500;
+}
+.main .wrapper .center .wrap .right{
+    width: 100%;
+    max-width: 653px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .wrapper .center .wrap .right .wrap1 .box-1,
+.main .wrapper .center .wrap .right .wrap2 .box-3 {
+    margin-bottom: 26px;
+}
+.main .wrapper .line {
+    height: 4px;
+    background-color: #1B4332;
+    width: 978px;
+    margin: auto;
+}
+.main .wrapper .finish {
+    margin-top: 42px;
+}
+.main .wrapper .finish h2{
+    font-size: 48px;
+    font-family: 'Futura-Medium';
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.main .wrapper .finish span{
+    font-weight: 600;
+    font-family: 'Futura-Light';
+    font-size: 48px;
+}
+.main .wrapper .finish p{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Futura-Light';
+    color: #767676;
+    font-weight: 500;
+    margin-bottom: 43px;
+}
+.main .wrapper .lastbox {
+    width: 100%;
+    max-width: 1142px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: auto;
+    height: 441px;
+}
+.main .wrapper .vector h6{
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Futura-Light';
+    color: #767676;
+}
+.main .wrapper .vector .arrow img{
+    display: none;
+}
+
+
+.main .wrapper footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    padding: 67px 0;
+}
+.main .wrapper footer .logo img{
+    width: 70%;
+}
+.main .wrapper footer .right{
+    display: flex;
+    gap: 85px;
+    width: 100%;
+    max-width: 629px;
+}
+.main .wrapper footer .right ul li {
+    list-style: none;
+    font-size: 24px;
+    margin-bottom: 29px;
+    font-family: 'Futura-Medium';
+}
+
+.main .wrapper footer .right ul li.top{
+    margin-bottom: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 1100px) {
+    .main .wrapper{
+        padding: 20px 50px;
+    }
+    .main .wrapper nav{
+        flex-wrap: wrap;
+        position: relative;
+        height: 5vh;
+        overflow: hidden;
+        padding: 10px;
+        transition: height 1ms ease-in-out;
+    }
+    .main .wrapper nav.on{
+        height: fit-content;
+    }
+    .main .wrapper nav .right {
+        width: 100%;
+    }
+    .main .wrapper nav .bars{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    .main .wrapper nav .right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .wrapper nav .right ul{
+        flex-direction: column;
+    }
+    .main .wrapper nav .right ul li{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .main .wrapper .hero .wrap{
+        flex-wrap: wrap;
+    }
+    .main .wrapper .hero .wrap .left,  .main .wrapper .hero .wrap .right{
+        max-width: unset;
+    }
+    .main .wrapper .center .wrap {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .main .wrapper .center .wrap .right{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 0;
+    }
+    .main .wrapper .center .wrap .right .wrap1 .box-2{
+        margin-bottom: 25px;
+    }
+    .main .wrapper footer, 
+    .main .wrapper footer .right {
+        flex-wrap: wrap;
+    }
+    .main .wrapper .lastbox{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .main .wrapper .line{
+        width: 489px;
+    }
+    .main .wrapper .vector{
+        display: none;
+    }
+
+}
+@media (max-width:425px) {
+    .main .wrapper{
+        padding: 20px;
+    }
+    .main .wrapper nav {
+        height: 35vh;
+    }
+    .main .wrapper nav .logo img{
+        width: 60%;
+    }
+    .main .wrapper nav .bars{
+        font-size: 20px;
+    }
+}
+
